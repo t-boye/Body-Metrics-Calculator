@@ -1,0 +1,99 @@
+h1{
+    color: #4CAF50;
+    text-align:center;
+    text-shadow: #244;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px; 
+    
+}
+body {
+    background-image: url("img/back-body.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:20px;
+}
+
+ .label{
+    color: #4CAF50;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+ } 
+  
+ #result{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-weight: bolder;
+    animation: slide-in-right 1s forwards;
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  @keyframes slide-in-right {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .form {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-down:23px;
+  }
+
+  .form-justification {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  .button-justification {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  #result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  footer {
+    background-color: rgb(59, 59, 59);
+    text-align: center;
+    color: white;
+   position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+}

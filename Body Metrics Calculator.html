@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@7.0.0/dist/math.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="BMC.css">
+    <script src="BMC.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon\favicon.ico">
+</head>
+<html>
+
+<body>
+  <h1>Body Metrics Calculator</h1>
+  <div class="form">
+  <div class="form-justification">
+  <label for="weight" class="label">Enter your weight (in kg): </label><br><br>
+    <input type="text" id="weight"><br><br>
+
+  <label for="height" class="label">Enter your height (in m):</label><br><br>
+     <input type="text" id="height">
+</div><br>
+
+
+
+  <div class="button-justification">
+  <button onclick="calculateBMI()">Calculate BMI</button>
+  <button onclick="calculateBSA()">Calculate BSA</button>
+</div>
+  <p id="result"></p>
+</div>
+
+ <!-- Footer Social Icons-->
+ <footer style="text-align:center; font-family: Arial, sans-serif; font-size: 18px;">
+  <p>Powered by Tboye Technology || Designed by Emmanuel Tete Boye</p>
+</footer>
+</body>
+</html>
